@@ -1,0 +1,124 @@
+html, body {
+  font-family: 'Manrope', sans-serif;
+  background-color: hsl(210, 46%, 95%);
+}
+
+span {
+  font-weight: 100;
+  color: hsl(212, 23%, 69%);
+}
+
+.container {
+  display: flex;
+  background-color: white;
+  width: 785px;
+  height: 250px;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+.card-image {
+  width: 300px;
+  height: 250px;
+  border-radius: 10px 0 0 10px;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  color: hsl(217, 19%, 35%);
+  margin-left: 20px;
+  margin-top: 12px;
+}
+
+.card-text {
+  color: hsl(212, 23%, 69%);
+  margin-left: 20px;
+  margin-top: 0;
+}
+
+.container-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.container-woman {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+}
+
+.img-michelle {
+  width: 40px;
+  height: 40px;
+  border-radius: 30px;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+.text-woman {
+  font-weight: bolder;
+  color: hsl(217, 19%, 35%);
+  margin-left: 14px;
+  margin-top: 8px;
+}
+
+.icon-share {
+  width: 16px;
+  height: 16px;
+  background-color: hsl(210, 46%, 95%);
+  padding: 8px;
+  border-radius: 20px;
+  margin-left: 200px;
+  margin-top: 18px;
+}
+
+.attribution {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    
+    display: flex;
+    flex-direction: column;
+    width: 390px;
+    height: 500px;
+  }
+  .card-image {
+    border-radius: 10px 10px 0 0;
+    width: 390px;
+    height: 200px;
+  }
+
+  .container-info {
+    display: flex;
+    width: 100%;
+  }
+
+  .card-title {
+    max-width: 350px;
+    text-align: center;
+  }
+
+  .container-woman {
+    max-width: 100px;
+  }
+
+  .text-woman {
+    white-space: pre;
+  }
+}
+ 
+
+
+
+
+
+
