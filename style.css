@@ -83,11 +83,16 @@ span {
   margin-top: 15px;
 }
 
+/* added block styles */
+.block {
+  display: flex;
+}
+
 @media (max-width: 600px) {
   .container {
-    
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     width: 390px;
     height: 500px;
   }
@@ -113,6 +118,23 @@ span {
 
   .text-woman {
     white-space: pre;
+  }
+
+  /* made adjustments using the position property */
+  .icon-share {
+    position: relative;
+    right: 8.2rem;
+  }
+
+  .text {
+    position: relative;
+    bottom: 1.2rem;
+  }
+
+  .text-woman {
+    position: relative;
+    bottom: 1.5rem;
+    right: 2.9rem;
   }
 }
  
